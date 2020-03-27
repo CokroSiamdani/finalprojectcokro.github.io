@@ -1,0 +1,77 @@
+* {   
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px';
+}
+body {
+    background-image: url(img/isorepublic-background-kitchen-1100x733.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2 {
+    text-align: center;
+    color: aqua;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    font-size: 40px;
+    cursor: default;
+}
+h3 {
+    text-align: center;
+    color: aqua;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    cursor: default;
+}
+header {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 70px;
+}
+article {
+    background-color: transparent;
+    outline-color: blue;
+    padding: 10px;
+    border-radius: 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-inline: 25px;
+}
+img {
+    width:  200px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+form {
+    text-align: center;
+    color: aqua;
+    margin-top: -50px;
+    font-size: 20px;
+    cursor: default;
+}
+label {
+    font-size: 30px;
+}
+input {
+    height: 25px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bolder;
+    background: transparent;
+    color: aqua;
+    text-align: center;
+}
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    cursor: default;
+}

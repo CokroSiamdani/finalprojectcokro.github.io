@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style1.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Anda akan memesan Nasi Goreng Special</h2>
+        <header>
+            <article>
+                <img src="img/nasi-goreng-jawa-620x440.jpg" alt="" width="200px">
+            </article>
+        </header>
+            <form action="donenasi.html">
+                <label>Nama:</label>
+                <br>
+                <input type="text" required>
+                <br>
+                <label>Alamat:</label>
+                <br>
+                <input type="text" required>
+                <br>
+                <label>Jumlah Pesanan:</label>
+                <br>
+                <input type="number" id="nasi" onkeyup="nasiGoreng()" required>
+                <br>
+                <label>Total Harga:</label>
+                <br>
+                <input type="number" id="total" onkeyup="nasiGoreng()" readonly>
+                <br><br><br>
+                <input type="submit" value="Order">
+            </form>
+            <br><br><br>
+            <form action="index.html">
+                <input type="submit" value="Kembali ke halaman awal">
+            </form>
+            <footer>
+                <h5>copyright &copy; 2020 by Cokro Siamdani</h5>
+            </footer>
+            <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
